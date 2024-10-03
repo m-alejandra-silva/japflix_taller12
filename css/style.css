@@ -23,6 +23,21 @@ main {
     color: orange;
 }
 
-.offcanvas-top{
+.offcanvas-start{
     height: fit-content;
+    background-color: #FFC0CB;
+}
+.btn-close{
+    background-color: #8b0909;
+}
+.btn-secondary {
+    color: #FFC0CB;
+    background-color: #8b0909;
+    border-color: #000000;
+}
+.btn-check:focus+.btn-secondary, .btn-secondary:focus {
+    color: #7b1414;
+    background-color: #FFC0CB;
+    border-color: #7b1414;
+    box-shadow: 0 0 0 .25 rem#7b1414;
 }
